@@ -1563,6 +1563,23 @@ select:-webkit-autofill:focus {
 }
 
 
+.section-1-portfolio {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.section-1-portfolio .portfolio-item {
+    display: block;    
+    background: url("/img/f1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33vh;
+    width: 50%;
+    margin-bottom: 10vh;
+}
 
 
 @media (min-width: 350px) and (min-height: 600px){
